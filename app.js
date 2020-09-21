@@ -3,3 +3,15 @@ function sayHello(name) {
 }
 
 sayHello('Sergio');
+
+console.log(); // global object
+
+//setTimeout();
+//clearTimeout();
+
+//setInterval();
+//clearInterval();
+
+var message = ''; // only scoped to this file
+
+console.log(global.message); // undefined
